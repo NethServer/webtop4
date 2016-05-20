@@ -2,7 +2,7 @@
 
 Summary: Webtop4 libs
 Name: webtop4-libs
-Version: 1.1.3
+Version: 1.2.0
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
@@ -37,3 +37,6 @@ rm -rf %{buildroot}
 /var/lib/tomcat/webapps/webtop/*
 
 %changelog
+* Fri May 20 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.0-1
+- First release. Refs #3372
+
