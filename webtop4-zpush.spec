@@ -1,5 +1,5 @@
-%define zpush_major_version 2.2.8
-%define zpush_minor_version 0017
+%define zpush_major_version 2.2.10
+%define zpush_minor_version 0018
 
 Summary: WebTop z-push
 Name: webtop4-zpush
