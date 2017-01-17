@@ -1,4 +1,4 @@
-%define webtop_version 0453
+%define webtop_version 0456
 
 Summary: Webtop4 core
 Name: webtop4-core
