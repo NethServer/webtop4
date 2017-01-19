@@ -2,7 +2,7 @@
 
 Summary: Webtop4 core
 Name: webtop4-core
-Version: 1.2.0
+Version: 1.2.1
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
@@ -55,6 +55,9 @@ rm -rf %{buildroot}
 %doc COPYING
 
 %changelog
+* Thu Jan 19 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.1-1
+- Update webtop-core to version 0456. Refs #3436
+
 * Fri May 20 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.0-1
 - First release. Refs #3372
 
