@@ -1,8 +1,8 @@
-%define webtop_version 0457
+%define webtop_version 0458
 
 Summary: Webtop4 core
 Name: webtop4-core
-Version: 1.2.2
+Version: 1.2.3
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
@@ -55,6 +55,9 @@ rm -rf %{buildroot}
 %doc COPYING
 
 %changelog
+* Mon Jan 30 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.3-1
+- Update webtop-core to version 0458. NethServer/dev#5180
+
 * Wed Jan 25 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.2-1
 - Update webtop-core to version 0457. NethServer/dev#5180
 
