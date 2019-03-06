@@ -1,13 +1,13 @@
-%define webtop_version 0458
+%define webtop_version 0459
 
 Summary: Webtop4 core
 Name: webtop4-core
-Version: 1.2.3
+Version: 1.2.4
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
 Source0: %{name}-%{version}.tar.gz
-Source1: http://git.nethesis.it/install/webtop/webtop%23%23%{webtop_version}.war
+Source1: https://www.sonicle.com/nethesis/nethtop/webtop%23%23%{webtop_version}.war
 BuildArch: noarch
 Requires: webtop4-libs
 
@@ -55,6 +55,9 @@ rm -rf %{buildroot}
 %doc COPYING
 
 %changelog
+* Wed Mar 06 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.4-1
+- Fix SQL injection on wtusername login variable
+
 * Mon Jan 30 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.3-1
 - Update webtop-core to version 0458. NethServer/dev#5180
 
